@@ -22,12 +22,20 @@ function App() {
   };
 
   return (
-    <div className="w-screen h-screen flex overflow-hidden bg-gray-50">
-      {/* 3D Viewer Scene - Center/Left */}
-      <Scene file={selectedFile} />
+    <div className="w-screen h-screen flex flex-col overflow-hidden bg-gray-50">
+      {/* Main content area */}
+      <div className="flex-1 flex overflow-hidden">
+        {/* 3D Viewer Scene - Center/Left */}
+        <Scene file={selectedFile} />
 
-      {/* File Upload Panel - Right */}
-      <FileUpload onFileSelect={handleFileSelect} selectedFile={selectedFile} />
+        {/* File Upload Panel - Right */}
+        <FileUpload onFileSelect={handleFileSelect} selectedFile={selectedFile} />
+      </div>
+
+      {/* Footer */}
+      <footer className="bg-gray-800 text-gray-400 text-xs py-2 px-4 text-center">
+        Created by <span className="text-gray-300">Guillem Trujillo Ruiz</span> for learning purposes
+      </footer>
     </div>
   );
 }
