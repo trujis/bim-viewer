@@ -6,6 +6,12 @@ A modern 3D model viewer built with React, TypeScript, and React Three Fiber. Pe
 
 **[View Live Demo](https://bim-viewer-psi.vercel.app/)** | **[GitHub Repository](https://github.com/trujis/bim-viewer)**
 
+## 📸 Preview
+
+![BIM Viewer Screenshot](screenshot.png)
+
+*Example showing the HORNET.glb model loaded in the viewer with interactive 3D controls*
+
 ## Features
 
 - **3D Visualization**: Interactive 3D rendering using React Three Fiber
