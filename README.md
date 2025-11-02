@@ -2,6 +2,10 @@
 
 A modern 3D model viewer built with React, TypeScript, and React Three Fiber. Perfect for visualizing BIM and 3D models in the browser.
 
+## 🚀 Live Demo
+
+**[View Live Demo](https://bim-viewer-psi.vercel.app/)** | **[GitHub Repository](https://github.com/trujis/bim-viewer)**
+
 ## Features
 
 - **3D Visualization**: Interactive 3D rendering using React Three Fiber
@@ -106,6 +110,10 @@ We're monitoring the `web-ifc` project for updates and will re-enable IFC suppor
 - Large 3D model files may take some time to load
 - The viewer automatically centers models in the scene
 - Grid and axes helpers are shown for spatial reference
+
+## Acknowledgments
+
+This project was built with the assistance of **[Claude Code](https://claude.com/claude-code)**, Anthropic's official CLI for Claude.
 
 ## License
 
